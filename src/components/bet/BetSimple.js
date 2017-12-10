@@ -21,8 +21,9 @@ class BetSimple extends Component{
                             </ToggleButtonGroup>
                         </ButtonToolbar>
                     </Col>
-                    <Col xs={6} className="">
+                    <Col xs={6} className="text">
                         {match.homeTeam.name} VS {match.awayTeam.name} <br/>
+                        <b className="big-text">Result</b>: <span className="big-text primary-color">{(bet.result === "x" ? "Draw": (bet.result == 1? match.homeTeam.name:match.awayTeam.name))}</span><br/>
                         Odd : {match.odds[bet.result]}
                     </Col>
                     <Col xs={2} className="">

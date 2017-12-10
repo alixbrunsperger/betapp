@@ -179,6 +179,17 @@ label.no-outline.active:hover{
     border-color: #17a2b8 !important;
 }
 
+.bet-simple .big-text{
+    font-size: 1.2rem;
+}
+.bet-simple .text{
+    font-size: 0.9rem;
+}
+
+.primary-color {
+    color : #17a2b8;
+}
+
 .custom_class .btn-primary {
     color: #fff;
     background-color: #17a2b8;
