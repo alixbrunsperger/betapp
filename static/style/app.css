@@ -1,0 +1,225 @@
+body{
+    min-height: 667px;
+    background-color : #e5e5e5 !important;
+}
+body, .grey, .main-container, .match-filter .grey{
+    background-color : #e5e5e5;
+}
+.match-box * {
+    text-align: center;
+}
+
+.app-header.row {
+    padding : 10px;
+    vertical-align : middle;
+}
+
+.app-header .title-adjust{
+    padding-top:5px;
+    font-size: 2rem;
+}
+.app-header .icon-adjust{
+    margin-top:2px;
+}
+.app-banner h4 {
+    margin-left: 25px;
+}
+.app-banner {
+    background: url('/static/img/banner.jpg');
+    background-size: cover;
+    color : white;
+    min-height : 150px;
+}
+.app-banner .card-text {
+    text-align: center;
+}
+.app-banner .odds{
+    margin : 15px 15px 0 15px;
+}
+
+
+.match-box-list{
+    background-color : white;
+}
+.match-box .versus-text {
+    font-size: 1.2rem;
+}
+.match-box .small-text {
+    font-size: 1rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.match-box .date {
+    color: #721c24;
+    padding-left:0;
+    text-align : left;
+}
+.match-box.row,
+.bet-simple.row
+{
+    border: 1px solid black;
+    padding-bottom : 10px;
+    margin : 0;
+}
+
+.bet-simple .align-top {
+    margin-top : 10px;
+}
+.bet-simple .icon.align-top {
+    margin-top : 20px;
+    margin-left : 5px;
+}
+.bet-simple.row{
+    padding-top : 10px;
+    background-color : #EEEEEE;
+}
+
+.match-box img {
+    height : 40px;
+}
+
+.match-box .odds-list{
+    padding-left : 5px;
+    padding-right : 5px;
+}
+
+.no-outline, .focus {
+    outline: 0px;
+
+}
+.match-sort button{
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 0px;
+    padding: 1px 7px 2px;
+}
+
+.grid, .row, .container-fluid{
+    margin : 0;
+    padding : 0;
+}
+.bet-counter.badge{
+    position : absolute;
+    background-color: #cc123a;
+}
+
+.icon{
+    height : 30px;
+}
+
+.bets-container .app-header {
+    background-color : #e5e5e5;
+}
+.bets-container {
+    background-color : white;
+}
+.bets-container .small-text{
+    font-size : 1.3rem;
+}
+.bets-container .sub-title{
+    font-size:2rem;
+    font-weight: 700;
+}
+.bets-container .input-text{
+    width : 50px;
+}
+
+.bet-simple{
+    min-height : 65px;
+}
+
+.bet-combined .icon{
+    margin-top : 5px;
+}
+.bet-combined .icon,
+.bet-summary .icon,
+.bet-simple .icon{
+    height : 20px;
+}
+
+.bet-summary{
+    background-color : #888888;
+}
+
+.bet-simple .active:hover,
+.bet-simple .active,
+.btn-default.active,
+.btn-default.active:hover
+{
+    background-color : #000000;
+}
+
+.bets-container h1{
+    margin-top : 10px;
+}
+
+.bet-summary .icon{
+    margin-left : 5px;
+}
+
+.bet-combined .force-height{
+    height:50px;
+}
+
+label.no-outline{
+     color: #000000 !important;
+     background-color: transparent !important;
+     background-image: none !important;
+     background-color: #e5e5e5 !important;
+     border-color: #e5e5e5 !important;
+ }
+
+label.no-outline.active,
+label.no-outline.active:hover{
+    color: #ffffff !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+}
+
+.custom_class .btn-primary {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.no-bets .image{
+    width : 350px;
+}
+
+.bet-combined .input-text{
+    margin-bottom : 4px;
+}
+
+.validation-container .input-size{
+    width : 150px;
+}
+.center{
+    text-align : center;
+}
+
+.finish-container button {
+    margin:5px;
+    width: 160px;
+}
+.finish-container .image {
+    width : 180px;
+}
+
+#money-helper .number{
+    border : 1px solid #17a2b8;
+}
+#money-helper {
+    background-color : #000000;
+    color :white;
+    position : fixed;
+    bottom: 0px;
+    right:0px;
+    margin : 0px;
+}
+
+.hide{
+    display:none;
+}
