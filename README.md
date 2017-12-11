@@ -1,16 +1,16 @@
 # betapp
-###Installation
+#Installation
 * you can clone the repo using the command
 ```
 git clone git@github.com:alixbrunsperger/betapp.git
 ```
-###Inside the repo :
+#Inside the repo :
 
-To install all dependencies :
+First, install all dependencies :
 ```
 npm install
 ```
-To run the application
+Then run the application
 ```
 npm run dev
 ```
